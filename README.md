@@ -17,8 +17,8 @@ GiveTime won the 2024 Congressional App Challenge for Michigan's 6th District, h
 
 # Links
 
-Website: givetime.co
-App: app.givetime.co
+**Website:** [givetime.co](https://givetime.co)
+**App:** [app.givetime.co](https://app.givetime.co)
 
 # Notice
 

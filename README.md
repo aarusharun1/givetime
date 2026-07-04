@@ -1,6 +1,6 @@
 # GiveTIme
 
-Official repository for GiveTime. GiveTime is a volunteer opportunity platform that connects people with organizations in their community. GiveTime was created with the intention of making community service more accessible and straightforward. Browse by category, find opportunities that match your interests, and start giving back today. 
+Official repository for GiveTime. GiveTime is a volunteer opportunity platform that connects people with organizations in their community. GiveTime was created with the intention of making community service more accessible and straightforward. Browse by category, find opportunities that match your interests, and start giving back today.  
 
 # About
 

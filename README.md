@@ -1,6 +1,6 @@
 # GiveTIme
 
-Official repository for GiveTime. GiveTime is a volunteer opportunity platform that connects people with organizations in their community. GiveTime was created with the intention of making community service more accessible and straightforward. Browse by category, find opportunities that match your interests, and start giving back today. 
+Official repository for the GiveTime website landing page. GiveTime is a volunteer opportunity platform that connects people with organizations in their community. GiveTime was created with the intention of making community service more accessible and straightforward. Browse by category, find opportunities that match your interests, and start giving back today. 
 
 # About
 
@@ -17,8 +17,8 @@ GiveTime won the 2024 Congressional App Challenge for Michigan's 6th District, h
 
 # Links
 
-Website: givetime.us (coming soon)
-App: givetime.glide.page
+Website: givetime.co
+App: app.givetime.co
 
 # Notice
 

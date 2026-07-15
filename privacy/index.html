@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GiveTime Privacy Policy">
+    <title>Privacy Policy | GiveTime</title>
+    <link rel="icon" type="image/png" href="images/favicon-g-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root[data-theme="light"] {
+            --bg-primary: #FFFFFF;
+            --text-primary: #1C2B22;
+            --text-secondary: #4A635A;
+            --text-muted: #6E8578;
+            --green-primary: #3A8F5C;
+            --border: #D4E2D9;
+            --nav-bg: rgba(255, 255, 255, 0.92);
+        }
+
+        :root[data-theme="dark"] {
+            --bg-primary: #0F1512;
+            --text-primary: #E4EDE7;
+            --text-secondary: #A3B5AA;
+            --text-muted: #788F80;
+            --green-primary: #5ABB7D;
+            --border: #283830;
+            --nav-bg: rgba(15, 21, 18, 0.92);
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        h1, h2, h3 {
+            font-family: 'Sora', system-ui, sans-serif;
+            line-height: 1.3;
+        }
+        a { color: var(--green-primary); text-decoration: none; }
+
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: var(--nav-bg);
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-inner {
+            max-width: 1600px; margin: 0 auto; padding: 0 64px;
+            height: 64px; display: flex; align-items: center; justify-content: space-between;
+        }
+        .nav-logo { height: 32px; width: auto; }
+
+        .content {
+            max-width: 720px; margin: 0 auto;
+            padding: 120px 24px 80px;
+        }
+        .content h1 {
+            font-size: 2rem; font-weight: 800; margin-bottom: 8px;
+        }
+        .content .subtitle {
+            color: var(--text-muted); font-size: 0.9rem; margin-bottom: 40px;
+        }
+        .content h2 {
+            font-size: 1.15rem; font-weight: 700; margin-top: 32px; margin-bottom: 8px;
+        }
+        .content p {
+            color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 16px;
+        }
+        .content ul {
+            color: var(--text-secondary); font-size: 0.95rem;
+            margin-bottom: 16px; padding-left: 24px;
+        }
+        .content li { margin-bottom: 6px; }
+
+        .footer {
+            padding: 40px 0; border-top: 1px solid var(--border);
+        }
+        .footer-inner {
+            max-width: 1600px; margin: 0 auto; padding: 0 64px;
+            text-align: center;
+        }
+        .footer-note {
+            font-size: 0.8rem; color: var(--text-muted);
+        }
+
+        @media (max-width: 875px) {
+            .nav-inner { padding: 0 20px; }
+            .footer-inner { padding: 0 20px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" aria-label="GiveTime home">
+                <img src="images/logo-nav-light.png" alt="GiveTime" class="nav-logo" id="navLogo" height="32">
+            </a>
+            <a href="/" style="font-size: 0.9rem; font-weight: 500;">Back to Home</a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Last updated: July 15, 2026</p>
+
+        <p>
+            GiveTime is a volunteer opportunity database and hour-tracking tool
+            built by Aarush Arun. This policy explains what information GiveTime
+            collects, how it is used, and how it is protected.
+        </p>
+
+        <h2>Information We Collect</h2>
+        <p>When you create an account, GiveTime collects:</p>
+        <ul>
+            <li>Your email address</li>
+            <li>Your display name</li>
+            <li>If you sign in with Google or Apple, your account name and email</li>
+        </ul>
+        <p>When you use the app, GiveTime stores:</p>
+        <ul>
+            <li>Volunteer hour log entries you create (organization name, date, hours, and any notes you add)</li>
+            <li>Organizations you submit through the submission form</li>
+            <li>Your theme preference (light or dark mode)</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>
+            Your information is used only to provide the GiveTime service. Your
+            email and name are used for authentication and to personalize your
+            experience. Your hour logs are stored so you can track your volunteer
+            activity, view analytics, and export reports.
+        </p>
+        <p>
+            GiveTime does not sell, share, or rent your personal information to
+            any third parties. Your data is never used for advertising.
+        </p>
+
+        <h2>Data Storage</h2>
+        <p>
+            Your data is stored securely using Supabase, a cloud database
+            platform hosted in the United States. All connections between
+            your device and our servers are encrypted using HTTPS.
+        </p>
+
+        <h2>Third-Party Services</h2>
+        <p>
+            GiveTime uses the following third-party services to operate:
+        </p>
+        <ul>
+            <li>Supabase for data storage and user authentication</li>
+            <li>Google OAuth for optional Google sign-in</li>
+            <li>Apple for optional Sign in with Apple</li>
+            <li>Vercel for web hosting</li>
+        </ul>
+        <p>
+            Each of these services has its own privacy policy. GiveTime
+            does not share your data with any other third-party services
+            beyond what is necessary for the app to function.
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+            GiveTime requires users to be at least 13 years old to create
+            an account. We do not knowingly collect personal information
+            from children under 13. If you believe a child under 13 has
+            created an account, please contact us so we can remove it.
+        </p>
+
+        <h2>Data Deletion</h2>
+        <p>
+            You can request deletion of your account and all associated
+            data at any time by emailing
+            <a href="mailto:support@givetime.co">support@givetime.co</a>.
+            Upon receiving your request, we will delete your account,
+            profile information, and all hour log entries from our systems.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>
+            We reserve the right to make changes to this privacy policy from
+            time to time. Any changes will be posted on this page with an
+            updated revision date. Continued use of GiveTime after changes
+            are posted means you accept the updated policy.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+            If you have questions about this privacy policy or how your
+            data is handled, contact us at
+            <a href="mailto:support@givetime.co">support@givetime.co</a>.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="footer-note">
+                &copy; 2024-2026 GiveTime by Aarush Arun. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function getPreferredTheme() {
+            const saved = localStorage.getItem('givetime-theme');
+            if (saved) return saved;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        const theme = getPreferredTheme();
+        document.documentElement.setAttribute('data-theme', theme);
+        document.getElementById('navLogo').src = theme === 'dark' ? 'images/logo-nav-dark.png' : 'images/logo-nav-light.png';
+    </script>
+</body>
+</html>
